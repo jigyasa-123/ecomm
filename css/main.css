@@ -1,0 +1,47 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+		padding-top:50px;
+
+	}
+	
+#headerWrapper{
+	position:relative ;
+	padding:0;;
+	margin:0;
+	overflow:hidden;
+	height:600px;
+	background-image:url(../images/headerlogo/background.png);
+	background-repeat:no-repeat;
+	background-size:100% 700px;
+	backgroud-position: top center;
+	background-attachment:fixed;
+	
+	}
+#logotext{
+	position:absolute;
+	width:100%;
+	height:180px;
+	background-image:url(../images/headerlogo/text.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:70% 180px;
+	top:50%;
+	margin-top:-90px;
+	
+	}
+
+.img-thumb{
+	width:auto;
+	height:200px;
+
+	}
+	
+#footer{
+	margin-top:750px;
+	}
+img.details{
+	width:33%;
+	margin : 15px auto;
+	}
